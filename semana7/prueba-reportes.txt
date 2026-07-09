@@ -1,0 +1,1 @@
+Al consultar la ruta GET /reportes, el servidor devuelve la lista de reportes registrados mediante la ruta POST. Cada reporte contiene un id, un tipo y una descripción. Los datos permanecen disponibles mientras el servidor está en ejecución. Si el servidor se reinicia, los reportes se eliminan porque se almacenan únicamente en memoria.
